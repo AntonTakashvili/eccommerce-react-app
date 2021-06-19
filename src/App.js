@@ -4,8 +4,8 @@ import "./App.css";
 import Main from "./Components/Main/Main";
 import Aside from "./Components/Aside/Aside";
 import { useState, useEffect } from 'react';
-import {Switch,route } from 'react-router';
-import Nav from './Components/navigation/navigation';
+//import {Switch,route } from 'react-router';
+//import Nav from './Components/navigation/navigation';
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="content">
-      <Nav/>
+      
             <Sidebar />
             <Aside />
             <Header
